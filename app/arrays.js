@@ -4,12 +4,12 @@
 // output: ['is', 'a', 'split', 'sentence.', 'This']
 
 function rearranger(arr) {
-    console.log(arr)
+    //console.log(arr)
     let moved = arr[0]
     arr.splice(0, 1)
 
     arr.push(moved)
-    console.log(arr)
+    //console.log(arr)
     return arr
 }
 
@@ -23,7 +23,7 @@ function rearranger(arr) {
 // output: 42
 
 function largestNum(arr) {
-
+    return Math.max(...arr)
 }
 
 
