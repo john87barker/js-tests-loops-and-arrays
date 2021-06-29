@@ -36,14 +36,12 @@ function largestNum(arr) {
 // output: [16, 8, 4, 28]
 
 function elemsTimesLength(arr) {
-    // console.log(arr)
-    for (let i = 0; i <= arr.length; i++) {
-        arr[i] = arr[i] * 4
-        //console.log(arr)
+    console.log(arr)
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i] * 4;
     }
     return arr
 }
-
 
 // ------------------------------------------
 
