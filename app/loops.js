@@ -6,9 +6,13 @@
 // 1*2*3*4 = 24
 
 function factorials(num) {
-
+  let output = 1
+  console.log(num)
+  for (let i = 1; i <= num; i++) {
+    output *= i;
+  }
+  return output
 }
-
 // ------------------------------------------
 
 // 2. Write a function that sums up all of the numbers in a range
