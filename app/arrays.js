@@ -129,4 +129,5 @@ let theBand = {
 }
 
 function bandMemberDetails(name) {
+
 }
